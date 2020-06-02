@@ -25,7 +25,7 @@ def handle_twin(twin):
 
 
 async def main():
-    conn_str="HostName=RPi09.azure-devices.net;DeviceId=RPiDevice01;SharedAccessKey=KmTWp8FuGDJKmplzp4JvfCXm01dUah/ALW+84jPvUjw="
+    conn_str=" My Personal Connection String "
     device_client = IoTHubDeviceClient.create_from_connection_string(conn_str)
     await device_client.connect()
     
